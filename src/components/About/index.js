@@ -36,7 +36,6 @@ class About extends Component {
     let updatedDate
     if (fetchedDate !== undefined) {
       const a = new Date(fetchedDate.meta.last_updated)
-
       updatedDate = a.toString().slice(0, 15)
     }
 
@@ -45,7 +44,7 @@ class About extends Component {
 
   renderLoader = () => (
     <div className="loader-style">
-      <Loader type="Oval" color="#0b69ff" height="50" width="50" radius="80" />
+      <Loader type="Oval" color="#0b69ff" height="50" width="50" />
     </div>
   )
 

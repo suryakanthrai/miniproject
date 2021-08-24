@@ -22,7 +22,6 @@
   font-family: 'Roboto';
   display: flex;
   align-items: center;
-  margin-right: 50px;
 }
 
 .nav-home {
@@ -38,7 +37,6 @@
   font-weight: normal;
   color: #94a3b8;
   line-height: 24px;
-  width: 43px;
   padding-left: 50px;
   text-decoration: none;
 }

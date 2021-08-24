@@ -12,6 +12,8 @@
     "@testing-library/user-event": "12.6.2",
     "chalk": "4.1.0",
     "react": "17.0.1",
+    "react-date-object": "2.1.2",
+    "react-date-picker": "8.3.2",
     "react-dom": "17.0.1",
     "react-icons": "4.2.0",
     "react-loader-spinner": "4.0.0",

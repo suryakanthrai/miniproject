@@ -306,7 +306,6 @@ class Eachstatecoviddetails extends Component {
             {eachstatedistrictcases.map(eachTop => (
               <li className="each-top-district" key={eachTop[0]}>
                 <p className="top-number">{numberFormat.format(eachTop[1])}</p>
-                <p> </p>
                 <p className="top-district">{eachTop[0]}</p>
               </li>
             ))}
